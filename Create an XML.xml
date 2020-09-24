@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library>
+	<Catalogue category="Technical Books">
+		<Book>
+			<ISBN>1449319793</ISBN>
+			<Title>Python for Data Analysis</Title>
+			<Author>Wes McKinney</Author>
+		</Book>
+		<Book>
+			<ISBN>9780201835953</ISBN>
+			<Title>The Mythical Man-Month: Essays on Software Engineering</Title>
+			<Author>Frederick P. Brooks Jr.</Author>
+		</Book>
+	</Catalogue>
+	<Catalogue category="Cookery Books">
+		<Book>
+			<ISBN>0449017052</ISBN>
+			<Title>Hot Thai Kitchen: Demystifying Thai Cuisine with Authentic Recipes to Make at Home</Title>
+			<Author>Pailin Chongchitnant</Author>
+		</Book>
+		<Book>
+			<ISBN>1680529919</ISBN>
+			<Title>Recipes from an Indian Kitchen: Authentic Recipes from Across India</Title>
+			<Author>Manju Malhi</Author>
+		</Book>
+	</Catalogue>
+</Library>
