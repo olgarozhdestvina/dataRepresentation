@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.4</title>
+    </head>
+    <body>
+        <input type="number" onchange="checkNumber(this)"/></br>
+        <div id="output">output goes here
+
+        </div>
+    </body>
+    <script>
+        function checkNumber(inputElement){
+            var value = inputElement.value
+            if (value<10){
+                document.getElementById("output").innerText = "too low";
+            }
+            else if (value>10){
+                document.getElementById("output").innerText = "too high";
+            }
+            else {
+                document.getElementById("output").innerText = "just right";
+        }}
+    </script>
+</html>

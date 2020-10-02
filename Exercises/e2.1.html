@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html
+<head>
+    <title>2.1</title>
+</head>
+<body>
+    <div style="display:none">Hi Mom</div>
+    <div style="display:block">div1</div>
+    <div style="display:inline">div2</div>
+    <div style="display:inline">div3</div></br>
+    <input id="name" type="text" value="Enter name"/></br>
+    <button onclick="buttonClicked()">click me</button>
+    <div id="output">Output will go here</div>
+</body>
+<script>
+    console.log("hello world")
+    function sayHelloAgain(message){
+        console.log("hello " + message)
+    }
+    sayHelloAgain("Andrew")
+
+    function buttonClicked(){
+        var output = document.getElementById("name").value
+        document.getElementById("output").innerText = output
+    }
+    </script>
+</html>

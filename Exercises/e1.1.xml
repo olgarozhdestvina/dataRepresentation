@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast>
+	<food>
+		<name>Coffee</name>
+		<price>3 euro</price>
+		<description>Americano</description>
+		<calories>50 cal</calories>
+	</food>
+	<food>
+		<name>Sanwich</name>
+		<price>7 euro</price>
+		<description>Sandwich with pulled pork and coleslaw</description>
+		<calories>400 cal</calories>
+	</food>
+</breakfast>
