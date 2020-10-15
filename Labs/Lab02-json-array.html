@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 2 - convert JSON into Javascript object(array)</title>
+</head>
+
+<body>
+    <button onclick="displayJSON()">Press me</button>
+
+</body>
+<script>
+    function displayJSON(){
+        var objs = JSON.parse('{"employees": [{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter", "lastName": "Jones"}]} ')
+        for (employee of objs.employees){
+            console.log(employee.firstName)
+        }
+    }
+</script>
+
+</html>

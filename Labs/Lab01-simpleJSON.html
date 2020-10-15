@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 1 - convert JSON into Javascript object</title>
+</head>
+
+<body>
+    <button onclick="displayJSON()">Press me</button>
+
+</body>
+<script>
+    function displayJSON(){
+        var obj = JSON.parse('{"ISBN": 1234567,"Author": "Andrew Beaty","Title": "the emptness of ping-pong balls"}')
+        console.log(obj.Author)
+    }
+</script>
+
+</html>
