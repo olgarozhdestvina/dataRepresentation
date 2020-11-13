@@ -4,7 +4,9 @@ The repository consists of:
 
 - ***Assignments***
 
-- ***Labs***: covering topics on XML, HTML, DOM, JavaScript, 
+- ***Exercises***
+
+- ***Labs***: covering topics on XML, HTML, DOM, JavaScript, Consuming XML and HTML from the web, JSON, AJAX and REST, Using python to consume API, Flask and Virtual Environments.
 
 
 *Submitted by:* Olga Rozhdestvina (Student No: G00387844) 
